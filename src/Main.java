@@ -7,18 +7,18 @@ public class Main {
     public static void main(String[] args) {
 
         Passport ivan = new Passport(
-                Collections.singleton("523HG"),
+                Collections.singleton("523HQG"),
                 "Иванов",
                 "Иван",
                 "Иванович", "01.01.1980");
         Passport sergei = new Passport(
-                Collections.singleton("184AW"),
+                Collections.singleton("184AEW"),
                 "Сергеев",
                 "Сергей",
                 "Сергеевич",
                 "02.02.1957");
         Passport andrei = new Passport(
-                Collections.singleton("591KB"),
+                Collections.singleton("591KРB"),
                 "Андреев",
                 "Андрей",
                 "Андреевич",
@@ -34,7 +34,7 @@ public class Main {
             System.out.println(itr.next());
         }
 
-        System.out.println("Данные паспорта:" + find(passportSets, "591KB"));
+        System.out.println("Данные паспорта:" + find(passportSets, "591KРB"));
 
 
     }
